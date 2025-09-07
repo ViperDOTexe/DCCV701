@@ -2,5 +2,5 @@
 /* Offline-Farbe mit fester, höherer Deckkraft */
 :root{
   /* 1 = vollständig deckend, 0.8 = 80% deckend, usw. */
-  --hsl-offline-color: hsl(from var(--offline-color) h calc(var(--saturation-factor,1)*s) l / 0.85);
+  --hsl-offline-color: hsl(from var(--offline-color) h calc(var(--saturation-factor,1)*s) l / 0.5);
 }
